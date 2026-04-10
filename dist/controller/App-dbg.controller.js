@@ -16,14 +16,34 @@ sap.ui.define([
 
         onMain: function () {
             this.getOwnerComponent().getRouter().navTo("Main");
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        },
+
+        onProducts: function () {
+            this.getOwnerComponent().getRouter().navTo("Products", { id: 1 });
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        },
+
+        onAbout: function () {
+            this.getOwnerComponent().getRouter().navTo("Main");
+
+            setTimeout(() => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+            }, 300);
         },
 
         onCart: function () {
             this.getOwnerComponent().getRouter().navTo("Cart");
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
         },
 
         onAccount: function () {
             this.getOwnerComponent().getRouter().navTo("Account", { tab: "Profile" });
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
         }
 
     });

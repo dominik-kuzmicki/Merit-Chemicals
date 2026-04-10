@@ -7,27 +7,28 @@
     <VBox class="container-custom py-8">
         <!-- Breadcrumbs -->
         <HBox class="mb-6">
-            <Link text="Home" href="#/" class="text-gray-600 hover:text-primary-600 text-sm"/>
+            <Link text="Home" href="#/" class="text-gray-600 hover:text-primary-600 text-base"/>
             <Text text="/" class="mx-2 text-gray-400"/>
-            <Link text="{product>/category}" href="{= '/index.html#/Products/' + ${product>/categoryID}}" class="text-gray-600 hover:text-primary-600 text-sm"/>
+            <Link text="{product>/category}" href="{= '/index.html#/Products/' + ${product>/categoryID}}" class="text-gray-600 hover:text-primary-600 text-base"/>
             <Text text="/" class="mx-2 text-gray-400"/>
-            <Text text="{product>/name}" class="text-gray-500 text-sm"/>
+            <Text text="{product>/name}" class="text-gray-500 text-base"/>
         </HBox>
 
         <Link text="Back" icon="sap-icon://arrow-left" iconFirst="true" press=".onBack" class="flex items-center text-gray-600 hover:text-primary-600 mb-6"/>
 
         <!-- Main Product Grid -->
-        <HBox class="grid grid-cols-1 grid-cols-2 gap-8 mb-12">
+        <HBox class="grid grid-cols-1 grid-cols-2 gap-8 mb-2">
             <!-- Image -->
             <Carousel pages="{product>/images}" pageIndicatorBackgroundDesign="Transparent">
                 <VBox justifyContent="Center" alignItems="Center">
-                    <Image src="{product>}" alt="{product>/name}" class="w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"/>
+                    <Image src="{product>}" height="25rem" alt="{product>/name}" class="w-full object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"/>
                 </VBox>
             </Carousel>
 
             <VBox>
                 <Text text="{product>/name}" class="text-3xl font-bold mb-2"/>
-                <Text text="SKU: {product>/sku}" class="text-gray-600 mb-4"/>
+                <!-- <Text text="SKU: {product>/sku}" class="text-gray-600 mb-4"/> -->
+                <Text text="Formula: {product>/formula}" class="text-gray-600 mb-4"/>
 
                 <!-- Price -->
                 <VBox class="mb-6">
@@ -36,34 +37,39 @@
                         <Text visible="{= ${product>/discount} > 0 }" text="€{product>/price}" class="text-xl text-gray-500 line-through"/>
                         <Text visible="{= ${product>/discount} > 0 }" text="Save {product>/discount}%" class="ml-3 bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded"/>
                     </HBox>
+
                     <Text text="In Stock ({product>/stock} available)" class="text-green-600 text-sm"/>
                 </VBox>
-
-                <!-- Quantity -->
-                <Text text="Quantity" labelFor="quantityInput" class="block text-sm font-medium text-gray-700 mb-1"/>
-                <HBox alignItems="Center" class="mb-6 flex items-center">
-                    <StepInput id="quantityInput" min="1" max="{product>/stock}" liveChange=".onQuantityChange" width="4rem" class="mr-12"/>
-                </HBox>
-
-                <!-- Add to Cart -->
-                <Button text="Add to Cart" icon="sap-icon://cart" iconFirst="true" press=".onAddToCart" enabled="{= ${product>/stock} > 0}" class="btn btn-primary w-full py-3 text-base"/>
-
-                <VBox class="border-t border-gray-200 pt-6 space-y-4">
+    
+                <!-- Supply info -->
+                <VBox class="border-b border-gray-200 pt-2 pb-2 space-y-4">
                     <HBox class="flex items-start">
-                        <core:Icon src="sap-icon://shield" class="h-5 w-5 text-gray-600 mr-3 mt-0.5"/>
+                        <!-- <core:Icon src="sap-icon://shipping-status" class="h-5 w-5 text-gray-600 mr-3 mt-0.5"/> -->
                         <VBox>
-                            <Text text="2-Year Warranty" level="H4" class="font-medium"/>
-                            <Text text="All products come with a 2-year manufacturer warranty" class="text-sm text-gray-600"/>
+                            <Text text="Supply info:" level="H4" class="font-medium"/>
+                            <Text text="• {product>/supply}" class="text-sm text-gray-600"/>
                         </VBox>
                     </HBox>
                 </VBox>
+                    
+                <!-- Quantity -->
+                <VBox class="mt-4">
+                    <Text text="Quantity" labelFor="quantityInput" class="block text-sm font-medium text-gray-700 mb-1"/>
+                    <HBox alignItems="Center" class="mb-6 flex items-center">
+                        <StepInput id="quantityInput" min="1" max="{product>/stock}" liveChange=".onQuantityChange" width="4rem" class="mr-12"/>
+                    </HBox>
+                </VBox>
+
+                <!-- Add to Cart -->
+                <Button text="Add to Cart" icon="sap-icon://cart" iconFirst="true" press=".onAddToCart" enabled="{= ${product>/stock} > 0}" class="btn btn-primary w-full py-3 text-base"/>
+               
             </VBox>
         </HBox>
 
         <!-- Description -->
-        <VBox class="mb-12">
+        <VBox class="mb-8">
             <HBox class="border-b border-gray-200">
-                <Text text="Description" class="border-primary-600 text-primary-600 py-4 px-1 border-b-2 font-bold text-xl border-b border-gray-200"/>
+                <Text text="Description" class="border-primary-600 text-primary-600 py-4 px-1 border-b-2 font-bold font-color text-xl border-b border-gray-200"/>
             </HBox>
             <Text text="{product>/description}" class="py-6 prose max-w-none"/>
         </VBox>

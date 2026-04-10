@@ -3,46 +3,50 @@
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m" 
     xmlns:core="sap.ui.core">
+    
+    <VBox class="heroWrapper mb-8">
+        <Image src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;q=80&amp;w=2000" class="heroImage" decorative="false"/>
 
-    <VBox class="bg-gradient-to-r" >
-        <VBox class="container-custom py-16 md:py-24">
-            <HBox alignItems="Center" class="gap-8 items-center">
+        <VBox class="heroContent">
+            <HBox  justifyContent="Begin" alignItems="Center" width="100%" height="100%">
+            <HBox alignItems="Center" class="gap-8 items-center" width="60%">
                 <VBox class="space-y-6">
                     <Text text="WELCOME TO YOUR CUSTOMER PORTAL"
-                        class="text-4xl md:text-5xl font-bold leading-tight text-white"/>
+                        class="text-5xl md:text-5xl font-bold leading-tight text-white"/>
                     <Text text="Get 24/7 access to ordering, pricing, statuses, and your full order history."
-                        class="text-lg text-primary-100"/>
+                        class="text-2xl md:text-2xl text-primary-100"/>
                     <HBox alignItems="Center"  class="gap-4"> 
-                        <Link text="Shop Now" href="#/Products/1" class="btn bg-white text-primary-800 hover:bg-gray-100"/>
-                        <Link text="View My Orders"  href="#/Account/Orders" class="btn bg-transparent border border-white text-white hover:bg-white/10"/>
+                        <Link text="Shop Now" href="#/Products/1" class="btn bg-color bg-white text-primary-800 hover:bg-gray-100"/>
+                        <Link text="View My Orders" href="#/Account/Orders" class="btn bg-transparent border border-white text-white hover:bg-white/10"/>
                     </HBox> 
                 </VBox>
-
-                <VBox class="hidden md:block">
-                    <Image src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-                        class="rounded-lg shadow-xl"/>
-                </VBox>
+            </HBox>
             </HBox>
         </VBox>
     </VBox>
 
-
     <VBox class="container-custom">  
         <VBox class="py-16">          
-            <FlexBox alignItems="Center" justifyContent="SpaceBetween" class="mb-8">
-                <Text text="Product Catalog" class="text-3xl md:text-3xl font-bold" />
-                <Link text="View All" href="#/Products/1" class="text-primary-600 hover:text-primary-700 flex items-center"/>
+            <FlexBox alignItems="Center" justifyContent="Center" class="mb-16">
+                <VBox alignItems="Center" justifyContent="Center">
+                    <Text text="MAIN DIRECTIONS" class="text-sm md:text-sm font-bold pb-3 font-color" />
+                    <Text text="Product Categories" class="text-5xl md:text-5xl font-bold pb-3" />
+                    <Text text="High-quality raw materials for key industries" class="text-lg md:text-lg text-gray-500" />
+                </VBox>
             </FlexBox>
             <FlexBox
                 wrap="Wrap"
                 items="{/categories}"
-                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 gap-8 mb-8">
                     <CustomListItem type="Active" press="onItemPress" class="card overflow-hidden">
-                        <VBox class="relative h-48">
-                            <Image src="{image}" height="12rem" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
+                        <VBox class="relative h-90">
+                            <Image src="{image}" height="370px" class="w-full h-full shadow-xl category-img object-cover transition-transform duration-300 group-hover:scale-105"/>
                         </VBox>
-                        <VBox justifyContent="End" class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                            <Text class="text-white text-lg font-medium p-4" text="{name}"/>
+                        <VBox justifyContent="Begin" class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                            <VBox class="p-6">
+                            <Text class="text-white text-2xl font-bold mb-4" text="{name}"/>
+                            <Text class="text-white text-base font-medium" text="{description}"/>
+                        </VBox>
                         </VBox>
 		            </CustomListItem>
             </FlexBox>
@@ -50,16 +54,18 @@
     </VBox>
 
     <!-- Enterprise Network Solutions -->
-    <VBox class="py-16 bg-secondary-900">
+    <VBox class="py-16 bg-about">
         <VBox class="container-custom">
             <FlexBox alignItems="Center" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <Image src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" class="rounded-lg shadow-xl"/>
+                <Image src="https://meritchemicals.com/storage/about/txOv1RPVPvGT5VYVQaRo_1772696122.png" class="about-img shadow-xl"/>
                 <VBox class="space-y-6">
-                    <Text text="Enterprise Network Solutions"
-                        class="text-3xl md:text-4xl font-bold text-white"/>
-                    <Text text="Complete end-to-end solutions for businesses of all sizes. From network planning to implementation and monitoring."
-                        class="text-lg text-secondary-100 text-white"/>
-                    <Link text="Explore Enterprise Solutions" href="#/Products/1" class="btn bg-white text-secondary-800 hover:bg-gray-100 inline-block"/>
+                    <Text text="About Merit Chemicals"
+                        class="text-5xl md:text-5xl font-bold text-white"/>
+                    <Text text="Your Strategic Partner in Industrial Raw Material Supply Chains"
+                        class="text-2xl md:text-2xl text-white"/>
+                    <Text text="Founded in 2007, Merit Chemicals has grown from a local supplier to an international distributor. Today, we support over 500 businesses in the CIS, offering comprehensive solutions from rare component sourcing to logistics. We don't just sell chemicals; we help your business grow by providing stability and quality. We have representative offices in Uzbekistan, Kazakhstan, Tajikistan, Russia, and Turkey."
+                        class="text-base text-secondary-100 text-white"/>
+                     <Link text="Explore Solutions"  href="#/Products/1" class="btn bg-transparent border border-white text-white hover:bg-white/10"/>
                 </VBox> 
             </FlexBox> 
         </VBox> 

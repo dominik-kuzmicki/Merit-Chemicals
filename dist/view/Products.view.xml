@@ -7,18 +7,15 @@
     <VBox class="container-custom py-8">
         <!-- Breadcrumbs -->
         <HBox class="mb-6">
-            <Link text="Home" href="#/" class="text-gray-600 hover:text-primary-600 text-sm"/>
+            <Link text="Home" href="#/" class="text-gray-600 hover:text-primary-600 text-base"/>
             <Text text="/" class="mx-2 text-gray-400"/>
-            <Text text="Accessories" class="text-gray-500 text-sm"/>
+            <Text text="Polymers" class="text-gray-500 text-base"/>
         </HBox>
 
         <!-- Header -->
         <HBox class="flex justify-between items-center mb-8" lignItems="Center" justifyContent="SpaceBetween" >
-            <VBox>
-                <Text text="Accessories" class="text-3xl font-bold" />
-                <Text text="Products found" class="text-gray-600 mt-2" />
-            </VBox>
-
+            <Text text="Polymers" class="text-3xl font-bold" />
+            
             <HBox class="flex items-center space-x-4">
                 <Select selectedKey="{view>/sortOption}" change=".onSortChange" class="input min-w-[200px]">
                     <items>
@@ -44,7 +41,7 @@
 
         <!-- Products Grid -->
         <FlexBox id="products" items="{/products}" wrap="Wrap" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-            <VBox  class="card group overflow-hidden">
+            <VBox class="card group overflow-hidden">
                 <VBox class="relative" >
                     <Image press=".onItemPress" src="{= ${images}[0] }" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" />
 
@@ -55,7 +52,7 @@
 
                     <!-- Content -->
                     <VBox class="p-4">
-                        <Text text="{name}" class="text-lg font-medium text-gray-900 mb-1 line-clamp-1" />
+                        <Text text="{name}" class="text-lg font-bold text-gray-900 mb-1 line-clamp-1" />
                         <Text text="{description}" class="text-gray-500 text-sm mb-3 line-clamp-2" />
 
                         <HBox class="flex items-center justify-between" alignItems="Center" justifyContent="SpaceBetween">

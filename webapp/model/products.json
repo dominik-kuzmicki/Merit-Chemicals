@@ -2,88 +2,117 @@
   "products": [
     {
       "ID": 83,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1001",
-      "name": "AXIS P13 Box Camera Series",
-      "description": "With electronic image stabilization, AXIS P13 Series ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. And thanks to barrel distortion correction, they deliver great image quality, even at the edges of the image. Plus, corridor format ensures the video is perfectly adapted to monitored corridors or tunnels. Additionally, Lightfinder 2.0, and Forensic WDR deliver true colors and great detail in challenging light or near darkness. ",
+      "name": "Dioctyl Terephthalate (DOTP)",
+      "description": "Dioctyl Terephthalate (DOTP) is a modern, eco-friendly general-purpose plasticizer that is completely free of ortho-phthalates. It serves as a direct and safer replacement for traditional DOP. Due to its non-toxic profile, DOTP is approved for use in sensitive applications such as children's toys, food contact films, medical devices, and residential flooring. The plasticizer exhibits low volatility, which prevents window fogging in automotive interiors and ensures the longevity of PVC products. It imparts excellent cold resistance and flexibility to materials. Additionally, DOTP features superior electrical insulation properties, making it the preferred choice for cable jacketing. It is a clear, oily liquid that blends easily with polymers and is compatible with standard PVC processing equipment.",
       "images": [
-        "https://cdn.prod.website-files.com/6479d4e993c0cae51a52a3de/67603d3cafff428e24f81c50_Blog_post_main.png",
-        "https://netcamcenter.de/media/products/q1805-06le_t94V01c_marina_01_2307_hi.jpg"
+        "https://meritchemicals.com/storage/products/WDLCEU7u9hec345TsJYLjFd9qQ3F9UowntZxRtqu.webp",
+        "https://meritchemicals.com/storage/products/S9BxwOGBZO4Ze5L5Ky5TfrwikJOxralVgZ73SJIK.webp",
+        "https://meritchemicals.com/storage/products/JejcWa8y9B90HrPx8YtanM9I4DIKSt00x5o3YSI6.webp",
+        "https://meritchemicals.com/storage/products/cUugl9NLc8lUvEEBuXJY6idjOdyN7zUOruMeutSP.webp"
       ],
       "price": 430.50,
       "discount": 20,
-      "stock": 35
+      "stock": 35,
+      "supply": "200 kg Drums",
+      "formula": "C₂₄H₃₈O₄"
     },
     {
       "ID": 84,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1002",
-      "name": "AXIS P1388-BE Box Camera",
-      "description": "This IP66-, IP67-, IK10- and NEMA 4X-rated camera can handle temperatures from -40 °C to 60 °C (-40 °F to 140 °F). A front heater ensures the lens is free of ice and fog. Plus, with barrel distortion correction and defogging functionality, it delivers clear, sharp images. AXIS P13 Weathershield Extension A is also available for extreme protection against snow or rain, and to prevent reflections. With electronic image stabilization, this robust camera ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. Furthermore, with PoE and redundant DC power, you get flexible installation, and your data is safeguarded in the event of a power outage.",
+      "name": "PVC-S SG5 SG3",
+      "description": "Suspension Polyvinyl Chloride (PVC-S), available in grades SG-5 and SG-3, is a high-volume thermoplastic polymer in the form of a white powder. PVC is known for its durability, chemical resistance, and fire-retardant properties. Grade SG-5 (K-value 66-68) is the most popular type, primarily used for manufacturing rigid products such as window profiles, pipes, siding, and rigid packaging. It ensures high mechanical strength and weather resistance for the final products. Grade SG-3 (K-value 72-71) has a higher molecular weight and excellent plasticizer absorption, making it ideal for soft and semi-rigid applications like cable insulation, artificial leather, linoleum, and flexible hoses. We supply resins from leading Chinese manufacturers (Zhongtai, Tianye) ensuring high purity, low volatile content, and consistent particle size for optimal extrusion performance.",
       "images": [
-        "https://assets.losspreventionmedia.com/2024/09/axis-gsx-696x392.jpg"
+        "https://meritchemicals.com/storage/products/y0J3hfQ7Xlf0oTD6AyYxbJFh1SAnVttg8OnBvyZj.webp",
+        "https://meritchemicals.com/storage/products/wPF7Uk07ccMzI0Q0WrFq32TcL41hAfJkrE5hacvO.webp",
+        "https://meritchemicals.com/storage/products/Wwi3T7deIWtVcoszfaB7KeLvT8fDrL6ml5CMOZVh.webp",
+        "https://meritchemicals.com/storage/products/RvXcTV9fkZoxViGkHiwsL9iCuV1ibFs1ioXoOQRi.webp"
       ],
       "price": 690.50,
       "discount": 20,
-      "stock": 26
+      "stock": 26,
+      "supply": "25 kg Bags",
+      "formula": "[-CH₂-CHCl-]n"
     },
     {
       "ID": 85,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1003",
-      "name": "AXIS M30 Dome Camera Series",
-      "description": "With electronic image stabilization, AXIS M30 Dome Camera Series ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. And thanks to barrel distortion correction, they deliver great image quality, even at the edges of the image. Plus, corridor format ensures the video is perfectly adapted to monitored corridors or tunnels. Additionally, Lightfinder 2.0, and Forensic WDR deliver true colors and great detail in challenging light or near darkness. ",
+      "name": "Polyester resin (P102, T100)",
+      "description": "After curing, it forms a rigid and durable polymer with excellent resistance to weathering and chemicals. It is widely used in the industrial sector for manual molding, spraying, and casting. It is characterized by high stability and optimal gel formation time, making it an ideal choice for mass production of composites.",
       "images": [
-        "https://www.tomorrow.city/wp-content/uploads/2023/11/q6315_q6100_city_2011_hi-Highresolution-scaled.jpg"
+        "https://meritchemicals.com/storage/products/cCrlwcSyV19XshfdOIx6C4jYBTyCB8bmC9XEvqbd.webp",
+        "https://meritchemicals.com/storage/products/ezVQ6uUs01PJrma6dzcd36ANm4DtaS2bgZse3mxs.webp",
+        "https://meritchemicals.com/storage/products/ezVQ6uUs01PJrma6dzcd36ANm4DtaS2bgZse3mxs.webp",
+        "https://meritchemicals.com/storage/products/ruHYuvKE2j7c8r0dvarzAwsQRcVNcVhWj7NBuuuL.webp"
       ],
       "price": 829.20,
       "discount": 0,
-      "stock": 30
+      "stock": 30,
+      "supply": "Barrels: 220 kg",
+      "formula": "[ -O - R - O - C(O) - R' - C(O) - ]n"
     },
     {
       "ID": 86,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1004",
-      "name": "AXIS M4317-PLR Panoramic Camera",
-      "description": "This IP66-, IP67-, IK10- and NEMA 4X-rated camera can handle temperatures from -40 °C to 60 °C (-40 °F to 140 °F). A front heater ensures the lens is free of ice and fog. Plus, with barrel distortion correction and defogging functionality, it delivers clear, sharp images. AXIS P13 Weathershield Extension A is also available for extreme protection against snow or rain, and to prevent reflections. With electronic image stabilization, this robust camera ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. Furthermore, with PoE and redundant DC power, you get flexible installation, and your data is safeguarded in the event of a power outage.",
+      "name": "Liquid Epoxy Resin (KER 828, DY 128)",
+      "description": "General Purpose Liquid Epoxy Resin (equivalents: KER 828, YD 128, DER 331) is a clear, viscous liquid based on Bisphenol-A, serving as the global standard for composites and coatings. When mixed with hardeners, the resin cures into an ultra-strong, chemically resistant polymer with excellent adhesion to metal, concrete, glass, and wood. It is widely used for installing industrial self-leveling floors, manufacturing fiberglass and carbon fiber composites, adhesives, sealants, and potting compounds for electronics. Our resin is characterized by high purity, clarity, and consistent curing properties. It is solvent-free and exhibits minimal shrinkage during cure. Ideally suited for both heavy industrial applications and creative projects (countertops, Resin Art) when paired with the appropriate hardeners.",
       "images": [
-        "https://netcamcenter.de/media/products/q1805-06le_t94V01c_marina_01_2307_hi.jpg"
+        "https://meritchemicals.com/storage/products/5QYJKYIgulGqbe3ABpGeq4nEScDp0f7yYBUNej8o.webp",
+        "https://meritchemicals.com/storage/products/6yZYPyab51fWJeBzAOOgtPIOfv3VbfF8LAn0AE2I.webp",
+        "https://meritchemicals.com/storage/products/I15BJG09bmIM75bPjeyAs3ufsqDN4PrGzczuEY5r.webp",
+        "https://meritchemicals.com/storage/products/PHjnqo9lS9GMnKsoMRQsXSbuMLPVq5PDtfqnWvDh.webp"
       ],
       "price": 690.60,
       "discount": 0,
-      "stock": 19
+      "stock": 19,
+      "supply": "220 kg Drums",
+      "formula": "C₂₁H₂₄O₄"
     },
     {
       "ID": 87,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1005",
-      "name": "AXIS XFQ1656 Explosion-Protected Camera",
-      "description": "With electronic image stabilization, AXIS XFQ1656 Explosion-Protected Camera ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. And thanks to barrel distortion correction, they deliver great image quality, even at the edges of the image. Plus, corridor format ensures the video is perfectly adapted to monitored corridors or tunnels. Additionally, Lightfinder 2.0, and Forensic WDR deliver true colors and great detail in challenging light or near darkness. ",
+      "name": "Dioctyl Phthalate (DOP)",
+      "description": "Dioctyl Phthalate (DOP) is the most widely used and cost-effective plasticizer for PVC worldwide. It appears as an oily, colorless, or slightly yellowish liquid. DOP is used to impart flexibility, elasticity, and softness to rigid polyvinyl chloride. It is extensively utilized in the production of cable insulation, artificial leather, footwear compounds, garden hoses, tarpaulins, and packaging films. DOP offers a high gelling speed and excellent compatibility with PVC resin, simplifying the processing workflow. Despite the emergence of eco-friendly alternatives, DOP remains the industry standard for technical and industrial applications due to its optimal price-performance ratio. It is also used in the rubber industry and in the production of paints and coatings.",
       "images": [
-        "https://newsroom.axis.com/sites/default/files/styles/featured_lg_x1/public/migrated/2023-03/p3827pve_urban_park_01_2210_hi_%28modified%29.jpg.webp?h=5eb243ed&itok=knrOge4I"
+        "https://meritchemicals.com/storage/products/Tn9RynnLLJYJYQO6cwIirOi6oH0jvIbs659g1Lbg.webp",
+        "https://meritchemicals.com/storage/products/pki48pjYVuCdyEnQDhyfZM8QNEfWdaKHBzsntesq.webp",
+        "https://meritchemicals.com/storage/products/Ui6cR3TA56choMfj2VhX3pr5aRW4qejsgnt13d9G.webp",
+        "https://meritchemicals.com/storage/products/xamy81OeVx0WICjK4RvFtwdK29A37SE0Yn0m3wbP.webp"
       ],
       "price": 1430.40,
       "discount": 0,
-      "stock": 21
+      "stock": 21,
+      "supply": "200 kg Drums",
+      "formula": "C₂₄H₃₈O₄"
     },
     {
       "ID": 88,
-      "category": "Accessories",
+      "category": "Polymers",
       "categoryID": 1,
       "sku": "1006",
-      "name": "AXIS Q8641-E PT Thermal Network Camera",
-      "description": "This IP66-, IP67-, IK10- and NEMA 4X-rated camera can handle temperatures from -40 °C to 60 °C (-40 °F to 140 °F). A front heater ensures the lens is free of ice and fog. Plus, with barrel distortion correction and defogging functionality, it delivers clear, sharp images. AXIS P13 Weathershield Extension A is also available for extreme protection against snow or rain, and to prevent reflections. With electronic image stabilization, this robust camera ensures stable images despite vibration. Scene profiles can be automatically optimized to suit specific scenarios. Furthermore, with PoE and redundant DC power, you get flexible installation, and your data is safeguarded in the event of a power outage.",
+      "name": "DBP (Dibutyl Phthalate) Plasticizer",
+      "description": "Dibutyl Phthalate (DBP) is a low-viscosity plasticizer appearing as a colorless, oily liquid. It finds extensive application in the paint and coating industry for plasticizing nitrocellulose lacquers, epoxy resins, and PVC compounds. DBP imparts elasticity, impact resistance, and cold tolerance to coatings. Unlike DOP, it offers better compatibility with certain resin types and ensures faster gelling. It is frequently used in the rubber industry to facilitate the processing of rubber mixes. Additionally, it serves as a plasticizer for polyvinyl acetate dispersions (PVA glues) and in the production of artificial leather. Due to its higher volatility compared to DOP, its use in long-life PVC products is limited, but it remains indispensable in lacquers and coatings.",
       "images": [
-        "https://newsroom.axis.com/sites/default/files/styles/featured_lg_x1/public/marketing_pics/2024-05/p1385e_office_building_02_2312_hi_%28modified%29%20%281%29.jpg.webp?h=31bd3608&itok=AU2c2s5R"
+        "https://meritchemicals.com/storage/products/qHDySzCJmcmAplfgrNhBHeaKrsD3nHLyhz845kFD.webp",
+        "https://meritchemicals.com/storage/products/8C5rVDjMZw7E2JI8E1RImdIo25wWntAayOVpfpFA.webp",
+        "https://meritchemicals.com/storage/products/ugpDWm23rdLmkLSMpzmbSWC8NKSAwxFHkFrkErmR.webp",
+        "https://meritchemicals.com/storage/products/H7GrZZMFlmpk65Gmex6xywUIQQgAzazlMTKlB8hV.webp"
       ],
       "price": 1240.10,
       "discount": 0,
-      "stock": 24
+      "stock": 24,
+      "supply": "200 kg Drums",
+      "formula": "C₁₆H₂₂O₄"
     }
   ]
 }
